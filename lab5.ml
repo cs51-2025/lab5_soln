@@ -151,6 +151,9 @@ For instance:
     - : color = RGB (10, 20, 30)
     # validated_rgb (RGB (10, 20, 300)) ;;
     Exception: Invalid_color "bad blue channel".
+    # validated_rgb (Simple Red) ;;
+    - : color = Simple Red
+
 ......................................................................*)
 
 exception Invalid_color of string ;;
